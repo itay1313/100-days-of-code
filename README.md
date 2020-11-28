@@ -10,5 +10,5 @@
 
 **Thoughts**: 
 
-**Link(s) to work**: [Quiz App](https://github.com/itay1313/100-days-of-code/tree/itay_100/Quiz%20Appm)
+**Link(s) to work**: [Quiz App](https://github.com/itay1313/100-days-of-code/tree/itay_100)
 
