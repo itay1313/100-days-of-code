@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* DSM
+--------------------------------------------- */
+:root {
+  --isize: 1.5625rem;
+  --simsize: 0.9375rem;
+  --light-color: #ffffff;
+  --dark-blue: #1a1243;
+  --primary-color: #00b7f7;
+  --secondary-color: #00eebc;
+  --light-blue-color: #00b7f7;
+  --gray1: #646464;
+  --base-color: #1a1243;
+}
+
+/* Positioning */
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+/* flex */
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex.row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.flex.row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.flex.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex.align-start {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.flex.align-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex.align-baseline {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.flex.align-end {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.flex.justify-start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flex.justify-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex.justify-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.flex.justify-around {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.flex.justify-between {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex.justify-evenly {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.small-padd {
+  padding: 5px 0;
+}
+
+.half {
+  width: 50%;
+}
+
+@media (max-width: 767px) {
+  .half {
+    width: 100%;
+  }
+}
+
+.max-width {
+  max-width: 1420px;
+  width: 100%;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.margin-auto {
+  margin: 0 auto;
+}
+
+.z-index {
+  z-index: 99;
+}
+
+.darkbg {
+  background: var(--dark-blue);
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.light-blue-color {
+  color: var(--light-blue-color);
+}
+
+.dsm-h1 {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3rem;
+  line-height: 3.5625rem;
+  /* identical to box height */
+  /* White */
+  color: var(--light-color);
+}
+
+.dsm-h1.primary-color {
+  color: var(--primary-color);
+}
+
+.dsm-h2 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4.25rem;
+  line-height: 5.0625rem;
+  /* identical to box height */
+  /* Base */
+  color: var(--base-color);
+}
+
+.dsm-h3 {
+  /* H3 */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.25rem;
+  line-height: 2.6875rem;
+  /* identical to box height */
+  /* White */
+  color: var(--light-color);
+}
+
+.dsm-h4 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+.dsm-h5 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  color: var(--dark-blue);
+}
+
+.dsm-h6 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  color: var(--dark-blue);
+}
+
+.dsm-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.625rem;
+  line-height: 1.9375rem;
+  /* White */
+  color: var(--light-color);
+}
+
+.dsm-button {
+  background: var(--primary-color);
+  color: var(--light-color);
+  border-radius: 1.625rem;
+  padding: 0.875rem 1.25rem;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+
+.dsm-button:hover {
+  color: var(--dark-blue);
+  background: var(--light-color);
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.dsm-button-p {
+  color: var(--light-color);
+  margin: 5px 0 0 0;
+}
+
+.dsm-ul {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.625rem;
+  line-height: 1.9375rem;
+  /* gray */
+  color: var(--gray1);
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dsm-ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+}
+
+.dsm-ul li::before {
+  content: "•";
+  color: var(--primary-color);
+  display: inline-block;
+  width: 0.7em;
+  font-size: 2.5rem;
+}
+/*# sourceMappingURL=style.css.map */

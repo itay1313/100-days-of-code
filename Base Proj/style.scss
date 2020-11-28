@@ -1,0 +1,246 @@
+/* DSM
+--------------------------------------------- */
+
+:root {
+    --isize: 1.5625rem;
+    --simsize: 0.9375rem;
+    --light-color: #ffffff;
+    --dark-blue: #1a1243;
+    --primary-color: #00b7f7;
+    --secondary-color: #00eebc;
+    --light-blue-color: #00b7f7;
+    --gray1: #646464;
+    --base-color: #1a1243;
+}
+
+
+/* Positioning */
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+
+/* flex */
+
+.flex {
+    display: flex;
+}
+
+.flex.row {
+    flex-direction: row;
+}
+
+.flex.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.flex.column {
+    flex-direction: column;
+}
+
+.flex.align-start {
+    align-items: flex-start;
+}
+
+.flex.align-center {
+    align-items: center;
+}
+
+.flex.align-baseline {
+    align-items: baseline;
+}
+
+.flex.align-end {
+    align-items: flex-end;
+}
+
+.flex.justify-start {
+    justify-content: flex-start;
+}
+
+.flex.justify-center {
+    justify-content: center;
+}
+
+.flex.justify-end {
+    justify-content: flex-end;
+}
+
+.flex.justify-around {
+    justify-content: space-around;
+}
+
+.flex.justify-between {
+    justify-content: space-between;
+}
+
+.flex.justify-evenly {
+    justify-content: space-evenly;
+}
+
+.small-padd {
+    padding: 5px 0;
+}
+
+.half {
+    width: 50%;
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.max-width {
+    max-width: 1420px;
+    width: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.margin-auto {
+    margin: 0 auto;
+}
+
+.z-index {
+    z-index: 99;
+}
+
+// Color classes
+.darkbg {
+    background: var(--dark-blue);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.light-blue-color {
+    color: var(--light-blue-color);
+}
+
+// Our Design System
+.dsm {
+    &-h1 {
+        margin: 0;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 3rem;
+        line-height: 3.5625rem;
+        /* identical to box height */
+        /* White */
+        color: var(--light-color);
+        &.primary-color {
+            color: var(--primary-color);
+        }
+    }
+    &-h2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 4.25rem;
+        line-height: 5.0625rem;
+        /* identical to box height */
+        /* Base */
+        color: var(--base-color);
+    }
+    &-h3 {
+        /* H3 */
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.25rem;
+        line-height: 2.6875rem;
+        /* identical to box height */
+        /* White */
+        color: var(--light-color);
+    }
+    &-h4 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+    &-h5 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2.25rem;
+        line-height: 2.875rem;
+        color: var(--dark-blue);
+    }
+    &-h6 {
+        font-style: normal;
+        font-weight: normal;
+        //font-size: 20px;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        color: var(--dark-blue);
+    }
+    &-p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.625rem;
+        line-height: 1.9375rem;
+        /* White */
+        color: var(--light-color);
+    }
+    &-button {
+        background: var(--primary-color);
+        color: var(--light-color);
+        border-radius: 1.625rem;
+        padding: 0.875rem 1.25rem;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        transition: all 0.4s linear;
+        &:hover {
+            color: var(--dark-blue);
+            background: var(--light-color);
+            transition: all 0.5s linear;
+        }
+    }
+    &-button-p {
+        color: var(--light-color);
+        margin: 5px 0 0 0;
+    }
+    &-ul {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.625rem;
+        line-height: 1.9375rem;
+        /* gray */
+        color: var(--gray1);
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            display: flex;
+            align-items: center;
+            margin-top: 2rem;
+            &::before {
+                content: "•";
+                color: var(--primary-color);
+                display: inline-block;
+                width: 0.7em;
+                font-size: 2.5rem;
+            }
+        }
+    }
+}
