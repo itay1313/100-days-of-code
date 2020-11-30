@@ -1,0 +1,719 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce TrackingMore\n"
+"POT-Creation-Date: 2020-08-31 09:30+0200\n"
+"PO-Revision-Date: 2019-06-19 09:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-trackingmore.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: classes/admin/WCTMW_ActivationPage.php:40
+#: classes/admin/WCTMW_ActivationPage.php:41
+#: classes/admin/WCTMW_ActivationPage.php:88
+msgid " Activator"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:68
+msgid "Purchase code is invalid!"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:69
+msgid "Buyer name is invalid!"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:70
+msgid "Item id is invalid!"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:71
+msgid ""
+"Max number of domains reached! You have to purchase a new license. The "
+"current license has been activated in the following domains: "
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:72
+#: classes/admin/WCTMW_ActivationPage.php:157
+msgid "Verifing, please wait..."
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:73
+msgid ""
+"There was an error while verifing the code. Please retry in few minutes!"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:74
+msgid "Activation successfully completed!"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:75
+msgid "Buyer and Purchase code fields must be filled!"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:117
+msgid "Activation"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:140
+msgid ""
+"The plugin can be activate in only <strong>two</strong> domains and they "
+"cannot be unregistered. Please enter the following data and hit the "
+"activation button"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:146
+msgid "Buyer"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:147
+msgid "Insert the Envato username used to purchase the plugin."
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:148
+msgid "Example: vanquish"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:151
+msgid "Purchase code"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:152
+msgid ""
+"Insert the purchase code. It can be downloaded from your CodeCanyon "
+"\"Downloads\" profile page."
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:153
+msgid "Example: 7d7c3rt8-f512-227c-8c98-fc53c3b212fe"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:155
+msgid "Activate"
+msgstr ""
+
+#: classes/admin/WCTMW_ActivationPage.php:160
+msgid "The plugin has been successfully activated!"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:34
+msgid "WooCommerce notification emails"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:36
+msgid "Order statuses"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:38
+msgid ""
+"Tracking info are included in <strong>every</strong> WooCommerce order "
+"notification email according to the current order status. Select for which "
+"status tracking info will be embedded into emails."
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:51
+msgid "Position"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:53
+msgid ""
+"Tracking info can be displayed before or after the <strong>order table</"
+"strong>."
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:55
+msgid "Before"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:56
+msgid "After"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:60
+msgid "Message"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:62
+msgid ""
+"In case of multiple shipping, the plugin will print a message for each "
+"tracking info. You can use the following shortcodes: "
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:64
+#: classes/admin/WCTMW_EmailNotificationPage.php:151
+msgid "<strong>[tracking_code]</strong>"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:65
+#: classes/admin/WCTMW_EmailNotificationPage.php:152
+msgid "<strong>[tracking_company_name]</strong>"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:66
+#: classes/admin/WCTMW_EmailNotificationPage.php:153
+msgid "<strong>[tracking_note]</strong>"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:67
+#: classes/admin/WCTMW_EmailNotificationPage.php:154
+msgid "<strong>[order_url]</strong>"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:68
+#: classes/admin/WCTMW_EmailNotificationPage.php:155
+msgid ""
+"<strong>[tracking_url]</strong> (this will redirect to the TrackingMore site)"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:91
+#: classes/com/WCTMW_HTML.php:85
+msgid "Active notification"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:94
+msgid ""
+"Active notfications can be sent through the admin order details page to "
+"actively notify the customer about one or more shipping. You can use the "
+"following shortcodes, the <strong>[tracking_message]</strong> (that can be "
+"used only in the Tempalte message) will render the tracking messages that "
+"will containing the tracking data:"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:96
+msgid "Order data"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:99
+msgid "Billing data"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:102
+msgid "Shipping data"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:105
+msgid "Tracking data (can be used only for the Template)"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:109
+msgid "1. Subject"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:125
+msgid "2. Template"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:147
+msgid "3. Tracking info"
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:149
+msgid ""
+"This is the message printed when using the <strong>[tracking_message]</"
+"strong> shortcode inside the <strong>Template</strong> configured in the "
+"previous step. The plugin will print a message for each shipping associated "
+"to the order. The following shortcode can be used: "
+msgstr ""
+
+#: classes/admin/WCTMW_EmailNotificationPage.php:181
+#: classes/admin/WCTMW_OrderDetailsPage.php:51
+msgid "Save"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:14
+msgid "Invalid file format. Please select a valid CSV file."
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:15
+msgid "Select a file first!"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:16
+#, php-format
+msgid "100% done!"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:17
+msgid ""
+"Please use a fully HTML5 compliant browser. The one you are using does not "
+"allow file reading."
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:34
+#: classes/admin/WCTMW_OrderDetailsPage.php:48
+msgid "No valid API Key has been entered thorugh the Options menu."
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:38
+msgid "CSV data import"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:40
+msgid "Instruction"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:41
+msgid "The CSV file must have the following colums:"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:44
+msgid ""
+"Leave empty to leave order status unchanged, otherwise use the follwing "
+"codes to set order status: "
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:52
+msgid ""
+"Leave empty for no notification, otherwise choose one of the following "
+"values to resend a notification email: <strong>send_email_new_order</"
+"strong>, <strong>send_email_cancelled_order</strong>, "
+"<strong>send_email_customer_processing_order</strong>, "
+"<strong>send_email_customer_completed_order</strong>, "
+"<strong>send_email_customer_refunded_order</strong>, "
+"<strong>send_email_customer_invoice</strong>"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:53
+msgid ""
+"Example: italy-sda, dhl, etc. The company id, named <strong>Courier Slug</"
+"strong>, can be found by download this <a target=\"_blank\" href=\"https://"
+"docs.aftership.com/couriers/download\"> file</a>"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:54
+msgid "Example: 1231R21FT"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:55
+msgid ""
+"Possible values: <strong>yes</strong>, <strong>no</strong>. If the value is "
+"<strong>no</strong>, all the previous tracking info associated to the order "
+"will be deleted"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:56
+msgid ""
+"<strong>REMOVE ALL \",\" CHARACTERS</strong> eventually present in this "
+"field otherwise import <strong>WILL FAIL</strong>"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:60
+msgid ""
+"In case an order already has some tracking info associated, merge the "
+"existing info with imported data?"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:61
+msgid ""
+"In case of merging, if you try to import an already existing tracking code "
+"for an order, it will be ignored."
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:63
+#: classes/admin/WCTMW_SettingsPage.php:72
+#: classes/admin/WCTMW_SettingsPage.php:79
+#: classes/admin/WCTMW_SettingsPage.php:86
+msgid "Yes"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:64
+#: classes/admin/WCTMW_SettingsPage.php:73
+#: classes/admin/WCTMW_SettingsPage.php:80
+#: classes/admin/WCTMW_SettingsPage.php:87
+msgid "No"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:68
+msgid "Select a file"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:72 woocommerce-trackingmore.php:181
+msgid "Import"
+msgstr ""
+
+#: classes/admin/WCTMW_ImportPage.php:82
+msgid "Import another"
+msgstr ""
+
+#: classes/admin/WCTMW_OrderDetailsPage.php:24
+msgid "TrackingMore"
+msgstr ""
+
+#: classes/admin/WCTMW_OrderDetailsPage.php:46
+msgid "Please wait..."
+msgstr ""
+
+#: classes/admin/WCTMW_OrderDetailsPage.php:50
+msgid "Add tracking"
+msgstr ""
+
+#: classes/admin/WCTMW_OrdersListPage.php:15
+msgid "Tracking"
+msgstr ""
+
+#: classes/admin/WCTMW_OrdersListPage.php:42
+msgid "Company"
+msgstr ""
+
+#: classes/admin/WCTMW_OrdersListPage.php:48
+#: classes/admin/WCTMW_SettingsPage.php:77 classes/com/WCTMW_HTML.php:47
+#: classes/com/WCTMW_HTML.php:70
+msgid "Tracking code"
+msgstr ""
+
+#: classes/admin/WCTMW_OrdersListPage.php:53
+#: classes/admin/WCTMW_SettingsPage.php:84 classes/com/WCTMW_HTML.php:74
+msgid "Status"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:39 woocommerce-trackingmore.php:179
+msgid "Settings"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:41
+msgid "API Key"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:43
+msgid ""
+"Generate a valid API Key by logging (or registering if you have not already "
+"done) clicking the following link <a href=\"https://my.trackingmore.com/"
+"get_apikey.php\" target=\"_blank\">Generate an Api Key</a>. Once done copy "
+"it in the following text area to be able to track order via TrackingMore "
+"service."
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:44
+msgid "Type the API Key here"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:46
+msgid "Api Key is not valid!"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:50
+msgid "Notification"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:51
+msgid ""
+"<strong>Note:</strong> for free plan, TrackingMore won't send any "
+"notification."
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:55
+msgid ""
+"Customer billing email will be used as recipient for TrackingMore "
+"notification emails"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:56
+msgid "Send notification emails"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:62
+msgid ""
+"Customer billing phone will be used as recipient for TrackingMore "
+"notification smses"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:63
+msgid "Send notification smses"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:67
+msgid "Admin orders list page"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:68
+msgid "Select which element have to be displayed in the admin orders list page"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:70
+msgid "Company name"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:91
+msgid "Frontend orders details page"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:93
+msgid "Timeline position"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:95
+msgid "After order details tabe"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:96
+msgid "After customr details"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:100
+msgid "Timeline events order"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:102
+msgid "Oldest to most recent"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:103
+msgid "Most recent to oldest"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:107
+msgid "Show timeline collapsed"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:109
+msgid "False"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:110
+msgid "True"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:113
+msgid "Custom tracking URL"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:115
+msgid ""
+"By default the tracking URL used is the <strong>https://track.aftership.com/"
+"</strong> address. If you want to use a custom one (for example "
+"<strong>http://yourcompany.aftership.com</strong>), type it in the followin "
+"text area."
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:116
+msgid "Type your custom tracking URL here"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:119
+msgid "Couriers"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:120
+msgid "Select the couriers that you will use to track shipments"
+msgstr ""
+
+#: classes/admin/WCTMW_SettingsPage.php:131
+msgid "Save Changes"
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:40
+msgid "Select company"
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:48
+msgid "Cannot be empty"
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:51 classes/com/WCTMW_HTML.php:81
+msgid "Note"
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:53 classes/com/WCTMW_HTML.php:89
+msgid "Delete"
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:78
+msgid "Last event"
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:83
+msgid "TrackingMore doesn't allow updating this field once created."
+msgstr ""
+
+#: classes/com/WCTMW_HTML.php:86
+msgid ""
+"Send an email containing the tracking info. Email template can be configured "
+"through the Email menu. In case of multiple tracking info, the plugin will "
+"send only one email containing all the data. Click the <strong>save</strong> "
+"button to send the notification."
+msgstr ""
+
+#: classes/com/WCTMW_Option.php:154
+msgid ""
+"<h2>Your order has been shipped with [tracking_company_name]</"
+"h2><strong>Tracking code: </strong>[tracking_code]<br/><a href="
+"\"[order_url]\" target=\"_blank\">Click here</a> to monitor your order status"
+msgstr ""
+
+#: classes/com/WCTMW_Option.php:166
+msgid "Order #[order_id] has been shipped!"
+msgstr ""
+
+#: classes/com/WCTMW_Option.php:167
+msgid ""
+"Hello [billing_first_name] [billing_first_name],<br>The order number "
+"[order_id] will be shipped to the following address: "
+"[formatted_shipping_address]<br><br>[tracking_message]<br><br><a href="
+"\"[order_url]\" target=\"_blank\">Click here</a> to monitor your order "
+"status."
+msgstr ""
+
+#: classes/com/WCTMW_Option.php:171
+msgid ""
+"<strong>Tracking code: </strong>[tracking_code]<br/>shipped with "
+"[tracking_company_name]"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:64 classes/com/WCTMW_Shortcode.php:23
+msgid "Please enter a valid order id"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:72
+msgid "Order hasn't shipped yet!"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:184
+msgid ""
+"The file hasn't a valid header row, import process stopped. Please check the "
+"csv file structure."
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:205
+#, php-format
+msgid "Invalid order id for row %d"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:210
+#, php-format
+msgid "Missing carrier_code row %d"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:215
+#, php-format
+msgid "Missing tracking_number row %d"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:281 classes/com/WCTMW_Order.php:282
+#: classes/com/WCTMW_Order.php:283
+msgid "N/A"
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:443 classes/com/WCTMW_Order.php:446
+#, php-format
+msgid ""
+"<strong>Tracking %s cannot be created, due to the following reason:</strong> "
+"%s "
+msgstr ""
+
+#: classes/com/WCTMW_Order.php:450
+msgid "<strong>Error</strong>"
+msgstr ""
+
+#: classes/com/WCTMW_Shortcode.php:31
+msgid "Type the order id"
+msgstr ""
+
+#: classes/com/WCTMW_Shortcode.php:33
+msgid "Track"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:9
+msgid "Pending"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:10
+msgid "Not found"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:11
+msgid "In transit"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:12
+msgid "Picked up"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:13
+msgid "Delivered"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:14
+msgid "Undelivered"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:15
+msgid "Exception"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:16
+msgid "Expired"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:30
+msgid "Insert a valid API Key"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:138
+msgid "Error: "
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:156
+msgid "No tracking info avaliable at the moment. Please try again later"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:169
+msgid "Please try again later, we are awaiting tracking info from the carrier."
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:172
+msgid "(click for details)"
+msgstr ""
+
+#: classes/com/WCTMW_TrackingMore.php:176
+#, php-format
+msgid "scheduled: %s"
+msgstr ""
+
+#: woocommerce-trackingmore.php:57
+#, php-format
+msgid ""
+"To complete the <span style=\"color:#96588a; font-weight:bold;\">%s</span> "
+"plugin activation, you must verify your purchase license. Click <a href=\"%s"
+"\">here</a> to verify it."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: woocommerce-trackingmore.php:177
+msgid "WooCommerce TrackingMore"
+msgstr ""
+
+#: woocommerce-trackingmore.php:179
+msgid "TrackingMore - Settings"
+msgstr ""
+
+#: woocommerce-trackingmore.php:180
+msgid "TrackingMore - Email"
+msgstr ""
+
+#: woocommerce-trackingmore.php:180
+msgid "Email"
+msgstr ""
+
+#: woocommerce-trackingmore.php:181
+msgid "TrackingMore - CSV Import"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "TrackingMore tracking service."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Lagudi Domenico"
+msgstr ""

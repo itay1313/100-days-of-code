@@ -1,0 +1,24 @@
+.wctmw_loader 
+{
+	width: 24px;
+	height: 24px;
+	display: none;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.wctmw_message 
+{
+	margin-top: 20px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.wctmw_tracking_code_input
+{
+    display: inline-block;
+    width: 300px;
+
+}
+.wctmw_tracking_code_button
+{
+	display: inline-block;
+}

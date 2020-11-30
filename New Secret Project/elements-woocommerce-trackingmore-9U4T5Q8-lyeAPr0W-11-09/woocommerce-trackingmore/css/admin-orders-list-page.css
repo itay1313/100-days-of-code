@@ -1,0 +1,40 @@
+.wctmw_courier_logo 
+{
+	/* float: left; */
+	display: block;
+	clear: both;
+}
+.wctmw_label 
+{
+	font-weight: bold;
+}
+.wctmw_tracking_code_label, .wctmw_tracking_code_label
+{
+	display:block;
+	clear:both;	
+	margin-top: 5px;
+}
+.wctmw_tracking_data_container {
+	margin-bottom: 5px;
+	display: block;
+	clear: both;
+}
+.wctmw_company_code_label
+{
+	display: block;
+	clear: both;
+}
+.wctmw_tracking_data_container_even, .wctmw_tracking_data_container_odd
+{
+	border: 1px solid #dedede;
+	padding: 10px;
+}
+/* .wctmw_tracking_data_container_odd
+{
+	background: #fbfbfb;
+	padding: 10px;
+} */
+.wctmw_tracking_data_container_odd
+{
+	
+}

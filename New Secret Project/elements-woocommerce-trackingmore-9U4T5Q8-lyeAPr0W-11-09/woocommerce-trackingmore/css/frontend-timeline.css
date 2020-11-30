@@ -1,0 +1,107 @@
+.wctmw_hide_elem
+{
+	display: none;
+}
+.wctmw_error_description
+{
+	margin-bottom: 20px !important;
+	display: block;
+}
+.wctmw_loader 
+{
+	width: 24px;
+	height: 24px;
+	display: block;
+	margin-bottom: 40px;
+	margin-top: 10px;
+}
+.wctmw_shipping_badge
+{
+	/* width: 30px;
+	margin: 5px; */
+	
+	position: relative;
+	top: -3px;
+}
+.wctmw_timeline_container 
+{
+	display: block;
+	/*margin-top: 50px;
+	 margin-bottom: 50px; */
+}
+.wctmw_shipping_company_name {
+	margin-top: 50px;
+}
+.wctmw_staus_container
+{
+	color: white;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center !important;
+	overflow: hidden;
+}
+.wctmw_status_full_text
+{
+	width: 100%;
+	float: left;
+	text-transform: uppercase;
+	padding: 9px 0 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.wctmw_status_left_text
+{
+	width: 50%;
+	float: left;
+	text-transform: uppercase;
+	padding: 9px 0 10px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.wctmw_status_right_text
+{
+	width: 50%;
+	float: left;
+	border-left: 3px solid #fff;
+	padding: 9px 0 10px;
+	font-size: 14px;
+	text-transform: uppercase;	
+	font-weight: bold;
+}
+.wctmw_staus_container_attemptfail
+{
+	background-color: #b789c7;
+}
+.wctmw_staus_container_delivered
+{
+	background-color: #4cbb87;
+}
+.wctmw_staus_container_exception
+{
+	background-color: #d26759;
+}
+.wctmw_staus_container_expired
+{
+	background-color: #616e7d;
+}
+.wctmw_staus_container_inforeceived
+{
+	background-color: #214977;
+}
+.wctmw_staus_container_intransit
+{
+	background-color: #65aee0;
+}
+.wctmw_staus_container_outfordelivery
+{
+	background-color: #f5a551;
+}
+.wctmw_staus_container_pending, .wctmw_staus_container_statuspending
+{
+	background-color: #cccccc;
+}
+.wctmw_courier_logo
+{
+	display: inline-block;
+	margin-right: 5px;
+}

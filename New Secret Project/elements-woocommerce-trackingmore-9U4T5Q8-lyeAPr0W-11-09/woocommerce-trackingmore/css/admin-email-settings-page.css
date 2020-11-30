@@ -1,0 +1,17 @@
+#wctmw_shortcode_list
+{
+	margin-bottom: 30px;
+}
+#wctmw_shortcode_container 
+{
+	padding: 5px 10px 20px 30px;
+	background: #f8f8f8;
+	border-radius: 3px;
+	margin-bottom: 30px;
+	max-width: 80%;
+}
+.wctmw_active_notification_subject {
+	display: block;
+	clear: both;
+	min-width: 400px;
+}
